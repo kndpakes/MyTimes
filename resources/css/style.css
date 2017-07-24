@@ -1,0 +1,173 @@
+#header {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	display: flex;
+    align-items: center;
+	height: 70px;
+	}
+
+#logo {
+	display: inline-block;
+	height: 70px;
+	justify-content: flex-start;
+	flex-grow: 1;
+	align-items: center;
+	border: 1px solid black;
+}
+
+.nav {
+	justify-content: flex-end;
+	 }
+
+.nav li {
+	width: 70px;
+	display: inline-block;
+	
+	}	
+	
+a {
+	color: black;	
+	
+	}	
+	
+p {
+	display: inline-block;
+	color: MediumAquamarine;
+	align-items: center;
+    }
+
+.main {
+	display: flex;
+	
+	
+    }
+
+.menu {
+	border: 1px solid black;
+}	
+
+.column {
+	display: flex;
+	margin: 10px;
+	
+     }
+	 
+.story {
+	border: 1px solid black;
+	
+}
+
+.phototitle {
+	border: 1px solid black;
+}		 
+
+.column.large {
+	width: 630px;
+	border: 1px solid black;
+	
+	
+}
+	
+.column.medium {
+	width: 300px;
+	border: 1px solid black;
+	
+}	
+
+.column.small {
+	width: 240px;
+	border: 1px solid black;
+	flex-direction: column;
+	
+}
+
+p {
+	color: black;
+	font-family: Georgia;
+    font-size: 17px;
+	}
+.tuna {
+	background-image: url("../images/tuna.png");
+	color: white;
+	display: flex;
+	font-family: Georgia;
+    font-weight: bold;
+    font-size: 40px;
+	height: 300px;
+}
+
+.earth {
+	background-image: url("../images/earth.png");
+	color: white;
+	display: flex;
+	font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+	height: 300px;
+}
+
+.cat {
+	background-image: url("../images/cat.png");
+	color: white;
+	display: flex;
+	font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+	height: 300px;
+}
+.camera {
+	background-image: url("../images/camera.png");
+	color: white;
+	display: flex;
+	font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+	height: 300px;
+}
+
+.cookie {
+	height: 240px;
+}
+
+.tuna h2 {
+	display: flex;
+	align-items: center;
+}
+.earth h2 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.cat h2 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.camera h2 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.menu {
+	display: flex;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.list {
+	
+	
+}
+
+.menu li {
+	list-style: none;
+	border-bottom: 1px solid black;
+	font-size: 12px;
+	font-family: Verdana;
+	color: DimGray;
+	background-color: WhiteSmoke;
+}
+
